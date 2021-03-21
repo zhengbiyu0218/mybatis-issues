@@ -16,6 +16,9 @@
     <property name="configLocation" value="classpath:test/mybatis-config.xml" />
   </bean>
 
+  <bean id = "userService" class="service.UserServiceImpl">
+  </bean>
+
   <mybatis:scan base-package="mapper" />
 
 </beans>
